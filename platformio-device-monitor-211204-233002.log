@@ -1,0 +1,110 @@
+ets�
+Serial active
+compiled: Dec  4 202123:29:45
+[I][HAL_ESP32.cpp:519] ConfigureI2C(): Configure I2C
+[I][HAL_ESP32.cpp:543] ConfigureI2C(): Config i2c passed
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 104
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply 0
+[D][HAL_ESP32.cpp:552] ConfigureI2C(): DS3231 ESP_OK = 0, DS3231 found 
+[D][HAL_ESP32.cpp:458] readRegDS3231(): readRegDS3231 data_rd ESP_OK = 0, I2C reply 0
+[D][HAL_ESP32.cpp:593] ConfigureI2C(): readRegDS3231 ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:594] ConfigureI2C(): DS3231 data_rd bytes raw: sec 69 min 9 hour 33 wday 2 
+[I][HAL_ESP32.cpp:625] ConfigureI2C(): DS3231 data_rd bytes: sec:45 min:9 hour:21 wday:1 mday:28 month:11 year:2021
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 32
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:672] ConfigureI2C(): wrote INPUT MASK at PCF8574A
+[I][HAL_ESP32.cpp:677] ConfigureI2C(): PCF8574A interrupt attached
+[I][HAL_ESP32.cpp:690] ConfigureI2C(): PCF8574A read value: 248
+[D][HAL_ESP32.cpp:692] ConfigureI2C(): ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 37
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply -1
+[E][HAL_ESP32.cpp:728] ConfigureI2C(): PCF8574B Error not found
+
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:0=0
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:1=153
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:2=255
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 252
+[D][main.cpp:552] setup(): create RTC_Semaphore success !
+ Did ADS111x setup 
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18872 now formatted:  2.3591 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10','due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10','due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10(,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10(,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10),'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10),'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10*,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10*,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10+,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10+,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10,,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10,,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10-,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10-,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10.,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10.,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10/,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10/,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':100,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':100,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:149] ads1115_task():  Raw ADC value: 18873 now formatted:  2.3592 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':101,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':101,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}

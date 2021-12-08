@@ -1,0 +1,946 @@
+e
+Serial active
+compiled: Dec  7 202122:44:39
+[I][HAL_ESP32.cpp:519] ConfigureI2C(): Configure I2C
+[I][HAL_ESP32.cpp:543] ConfigureI2C(): Config i2c passed
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 104
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply 0
+[D][HAL_ESP32.cpp:552] ConfigureI2C(): DS3231 ESP_OK = 0, DS3231 found 
+[D][HAL_ESP32.cpp:458] readRegDS3231(): readRegDS3231 data_rd ESP_OK = 0, I2C reply 0
+[D][HAL_ESP32.cpp:593] ConfigureI2C(): readRegDS3231 ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:594] ConfigureI2C(): DS3231 data_rd bytes raw: sec 69 min 9 hour 33 wday 2 
+[I][HAL_ESP32.cpp:625] ConfigureI2C(): DS3231 data_rd bytes: sec:45 min:9 hour:21 wday:1 mday:28 month:11 year:2021
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 32
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:672] ConfigureI2C(): wrote INPUT MASK at PCF8574A
+[I][HAL_ESP32.cpp:677] ConfigureI2C(): PCF8574A interrupt attached
+[I][HAL_ESP32.cpp:690] ConfigureI2C(): PCF8574A read value: 248
+[D][HAL_ESP32.cpp:692] ConfigureI2C(): ESP_OK = 0, I2C reply 0
+[I][HAL_ESP32.cpp:375] test4i2cDevice(): Test I2C for device: 37
+[D][HAL_ESP32.cpp:376] test4i2cDevice(): ESP_OK = 0, I2C reply -1
+[E][HAL_ESP32.cpp:728] ConfigureI2C(): PCF8574B Error not found
+
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:0=0
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:1=153
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:205] SetOutputState(): SetOutputState bit:2=255
+[D][HAL_ESP32.cpp:210] SetOutputState(): PCF8574A reply before writing PCF8574A_Value = 248
+[D][HAL_ESP32.cpp:215] SetOutputState(): PCF8574A reply after writing PCF8574A_Value = 252
+[D][main.cpp:555] setup(): create RTC_Semaphore success !
+ Did ADS111x setup 
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11252 now formatted:  1.4065 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10','due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10','due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10(,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10(,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10),'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10),'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10*,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10*,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10+,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10+,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10,,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10,,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10-,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10-,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10.,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10.,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10/,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10/,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':100,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':100,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':101,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':101,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':102,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':102,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':103,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':103,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':104,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':104,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':105,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':105,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':106,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':106,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':107,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':107,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':108,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':108,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':109,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':109,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10:,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10:,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10;,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10;,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10<,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10<,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10=,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10=,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10>,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10>,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10?,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10?,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10@,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10@,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10A,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10A,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10B,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10B,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10C,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10C,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10D,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10D,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10E,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10E,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10F,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10F,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10G,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10G,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10H,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10H,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10I,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10I,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10J,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10J,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 11253 now formatted:  1.4067 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10K,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10K,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 8938 now formatted:  1.1173 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10L,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10L,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 6188 now formatted:  0.7735 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10M,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10M,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4098 now formatted:  0.5123 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10N,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10N,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4101 now formatted:  0.5126 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10O,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10O,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4102 now formatted:  0.5128 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10P,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10P,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4102 now formatted:  0.5128 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10Q,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10Q,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4102 now formatted:  0.5128 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10R,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10R,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10S,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10S,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10T,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10T,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10U,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10U,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10V,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10V,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10W,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10W,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10X,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10X,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10Y,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10Y,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10Z,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10Z,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10[,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10[,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10\,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10\,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10],'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10],'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10^,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10^,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10_,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10_,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10`,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10`,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10a,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10a,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10b,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10b,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10c,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10c,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10d,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10d,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10e,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10e,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10f,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10f,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10g,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10g,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10h,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10h,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10i,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10i,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10j,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10j,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10k,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10k,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10l,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10l,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10m,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10m,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10n,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10n,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10o,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10o,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10p,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10p,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10q,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10q,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10r,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10r,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10s,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10s,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10t,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10t,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10u,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10u,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10v,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10v,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10w,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10w,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10x,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10x,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
+WiFitimer
+Wrote byte 0x40 to address 0x0000
+[I][main.cpp:225] RTC_task(): RTC_Semaphore obtained 
+
+[I][main.cpp:152] ads1115_task():  Raw ADC value: 4103 now formatted:  0.5129 in volts
+Read byte 0x40 at address 0x0000
+Wrote the following string to EEPROM: {'my':10y,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+The read operation was successful!
+Read the following string from EEPROM: {'my':10y,'due':23,'tres':89,'my1':101,'due1':24,'tres1':90}
+[D][main.cpp:236] RTC_task(): RTC_task gives Sephamore back 
+
